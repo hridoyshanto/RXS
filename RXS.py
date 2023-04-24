@@ -205,8 +205,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-          
-    headers = {'authority': 'mbasic.facebook.com',
+          headers = {'authority': 'mbasic.facebook.com',
      
     "method": 'GET',
     
