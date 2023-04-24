@@ -59,7 +59,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-#os.system('xdg-open https://facebook.com/groups/554714119911648/')
+os.system('xdg-open https://facebook.com/groups/554714119911648/')
 logo =("""\033[0;92m
 
  __          _        __  _____  ___ 
@@ -137,7 +137,7 @@ for xd in range(10000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
-#APK CHECK
+##APK CHECK
 def xxr():
     user=[]
     twf =[]
